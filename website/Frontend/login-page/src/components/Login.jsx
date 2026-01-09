@@ -38,7 +38,7 @@ function Login(){
 
             <div className="fixed top-0 left-0 w-full h-full bg-black/70"></div>
 
-            <div className="relative z-10 flex justify-center mt-10">
+            <div className="relative z-10 flex justify-center mt-24">
                 <div
                     className="bg-black/50 p-10 rounded-lg w-full max-w-md text-white"
                 

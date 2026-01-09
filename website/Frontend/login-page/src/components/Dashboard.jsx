@@ -33,7 +33,7 @@ const Dashboard = () => {
       <div className='p-4 pt-16 ' >
         <input type="text" className='p-2 border w-3/4 md:w-1/2 rounded-lg
         border-gray-800 bg-gray-900 opacity-60 text-white backdrop-blur-md mt-10
-        fixed top-16 left-1/2 transform -translate-x-1/2 z-10 text-white '
+        fixed top-16 left-1/2 transform -translate-x-1/2 z-10 '
           placeholder='Search Movie....'
           onChange={(e) => setSearch(e.target.value)} />
         <div className=" flex  overflow-x-scroll space-x-4 p-4 scrollbar-hide whitespace-nowrap
