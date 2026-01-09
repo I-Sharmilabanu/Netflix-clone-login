@@ -18,7 +18,7 @@ function Login(){
     }
 
     function check(){
-        var logindetails=axios.post(`http://localhost:5000/login`,{"email":email,"password":pass})
+        var logindetails=axios.post(`https://netflix-clone-login-g53o.onrender.com/login`,{"email":email,"password":pass})
         logindetails.then(function(data){
             
                         if(data.data === "successfull"){

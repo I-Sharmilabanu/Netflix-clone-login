@@ -6,7 +6,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-""
+"https://netflix-clone-login-eight.vercel.app"
     ],
   })
 );
